@@ -18,6 +18,13 @@
     "resend": "^6.9.4",
     "stripe": "^21.0.1"
   },
+  "overrides": {
+    "next-sanity": {
+      "next": "$next",
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
