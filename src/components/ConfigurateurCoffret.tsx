@@ -5,7 +5,6 @@ import Image from "next/image";
 import { Check } from "lucide-react";
 import { produits } from "@/data/produits";
 import { useCart } from "@/context/CartContext";
-import PlaceholderImage from "./PlaceholderImage";
 
 const savonsDisponibles = produits.filter((p) => p.id !== "coffret");
 const prixCoffret: Record<number, number> = { 3: 23, 5: 36, 7: 48 };
@@ -119,9 +118,12 @@ export default function ConfigurateurCoffret() {
 
         {/* Right image — desktop only */}
         <div className="hidden lg:block relative">
-          <PlaceholderImage
-            label="coffret-bois — écrin bois artisanal luxe"
-            className="aspect-[4/3] rounded-sm w-full h-full"
+          <Image
+            src="/images/coffret-bois.png"
+            alt="Écrin bois artisanal luxe"
+            width={600}
+            height={450}
+            className="aspect-[4/3] object-cover rounded-sm w-full h-full"
           />
           <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur p-4 rounded-md shadow-lg">
             <p className="font-serif italic text-sm text-brun">
