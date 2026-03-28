@@ -1,9 +1,14 @@
+export const dynamic = "force-dynamic";
+
 import Stripe from "stripe";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "sk_test_placeholder");
+function getStripe() {
+  return new Stripe(process.env.STRIPE_SECRET_KEY || "sk_test_placeholder");
+}
 
 export async function POST(req: Request) {
   const { items } = await req.json();
+  const stripe = getStripe();
 
   const line_items = items.map((item: { nom: string; parfum: string; prix: number; quantity: number }) => ({
     price_data: {
