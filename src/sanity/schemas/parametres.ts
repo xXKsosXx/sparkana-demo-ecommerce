@@ -1,13 +1,13 @@
 export default {
   name: "parametres",
-  title: "Param\u00e8tres",
+  title: "Paramètres",
   type: "document",
   __experimental_actions: ["update", "publish"],
   fields: [
     {
       name: "livraisonGratuiteMin",
       type: "number",
-      title: "Livraison gratuite d\u00e8s (\u20ac)",
+      title: "Livraison gratuite dès (€)",
       initialValue: 40,
     },
     {

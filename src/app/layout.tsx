@@ -19,9 +19,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Savonnerie C\u00e9venole \u00b7 C\u00e9vennes, Gard",
+  title: "Savonnerie Cévenole · Cévennes, Gard",
   description:
-    "Savons artisanaux naturels fabriqu\u00e9s dans les C\u00e9vennes depuis 2009. Ingr\u00e9dients locaux, z\u00e9ro compromis.",
+    "Savons artisanaux naturels fabriqués dans les Cévennes depuis 2009. Ingrédients locaux, zéro compromis.",
 };
 
 export default function RootLayout({

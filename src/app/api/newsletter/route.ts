@@ -14,8 +14,8 @@ export async function POST(req: Request) {
   await resend.emails.send({
     from: "bonjour@sparkana.fr",
     to: process.env.EMAIL_TO || "kamal@sparkana.fr",
-    subject: "Nouvelle inscription newsletter \u2014 Savonnerie C\u00e9venole",
-    html: `<p>Nouvel abonn\u00e9 newsletter : <strong>${email}</strong></p>`,
+    subject: "Nouvelle inscription newsletter — Savonnerie Cévenole",
+    html: `<p>Nouvel abonné newsletter : <strong>${email}</strong></p>`,
   });
 
   return Response.json({ success: true });

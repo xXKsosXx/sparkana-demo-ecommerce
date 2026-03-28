@@ -43,7 +43,7 @@ export default function ConfigurateurCoffret() {
       nom: `Coffret ${taille} savons`,
       parfum: noms,
       prix,
-      prixAffiche: `${prix},00\u20ac`,
+      prixAffiche: `${prix},00€`,
       image: "/images/coffret-decouverte.png",
     });
   };
@@ -60,8 +60,8 @@ export default function ConfigurateurCoffret() {
             Composez votre coffret cadeau
           </h2>
           <p className="font-sans text-sm text-brun/60 mt-3 max-w-sm">
-            Offrez une exp&eacute;rience sensorielle unique en s&eacute;lectionnant vos
-            fragrances pr&eacute;f&eacute;r&eacute;es dans un &eacute;crin de bois artisanal.
+            Offrez une expérience sensorielle unique en sélectionnant vos
+            fragrances préférées dans un écrin de bois artisanal.
           </p>
 
           {/* Size selector */}
@@ -86,7 +86,7 @@ export default function ConfigurateurCoffret() {
 
           {/* Message */}
           <p className="text-[11px] uppercase tracking-widest text-brun/50 mt-6 mb-2 font-sans">
-            MESSAGE PERSONNALIS&Eacute;
+            MESSAGE PERSONNALISÉ
           </p>
           <textarea
             value={message}
@@ -107,12 +107,12 @@ export default function ConfigurateurCoffret() {
                 : "bg-or/50 text-brun/50 cursor-not-allowed"
             }`}
           >
-            AJOUTER LE COFFRET PERSONNALIS&Eacute; &mdash; {prix}&euro;
+            AJOUTER LE COFFRET PERSONNALISÉ — {prix}€
           </button>
 
           {selectionnes.length > 0 && (
             <p className="font-sans text-xs text-brun/60 mt-3 text-center">
-              {selectionnes.length}/{taille} savons s&eacute;lectionn&eacute;s
+              {selectionnes.length}/{taille} savons sélectionnés
             </p>
           )}
         </div>
@@ -120,12 +120,12 @@ export default function ConfigurateurCoffret() {
         {/* Right image — desktop only */}
         <div className="hidden lg:block relative">
           <PlaceholderImage
-            label="coffret-bois — \u00e9crin bois artisanal luxe"
+            label="coffret-bois — écrin bois artisanal luxe"
             className="aspect-[4/3] rounded-sm w-full h-full"
           />
           <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur p-4 rounded-md shadow-lg">
             <p className="font-serif italic text-sm text-brun">
-              &ldquo;Un cadeau intemporel&rdquo;
+              “Un cadeau intemporel”
             </p>
             <p className="font-sans text-[10px] uppercase tracking-widest text-sauge mt-1">
               FABRICATION ARTISANALE

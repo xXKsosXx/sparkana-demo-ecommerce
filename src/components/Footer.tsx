@@ -31,11 +31,11 @@ export default function Footer() {
         {/* Col 1 — Brand */}
         <div>
           <p className="font-serif italic text-lg text-brun">
-            Savonnerie C&eacute;venole
+            Savonnerie Cévenole
           </p>
           <p className="font-sans text-sm text-brun/60 mt-2 max-w-[200px]">
-            L&rsquo;excellence de la savonnerie artisanale au c&oelig;ur du Gard.
-            Ingr&eacute;dients naturels, fabrication lente.
+            L&apos;excellence de la savonnerie artisanale au cœur du Gard.
+            Ingrédients naturels, fabrication lente.
           </p>
           <div className="flex gap-3 mt-4">
             <Volume2 size={16} className="text-brun/50" />
@@ -49,7 +49,7 @@ export default function Footer() {
             Navigation
           </p>
           <ul className="space-y-2">
-            {["La Collection", "L\u2019Atelier", "Coffrets Cadeaux", "Abonnements"].map(
+            {["La Collection", "L’Atelier", "Coffrets Cadeaux", "Abonnements"].map(
               (l) => (
                 <li key={l}>
                   <a
@@ -70,7 +70,7 @@ export default function Footer() {
             Informations
           </p>
           <ul className="space-y-2">
-            {["Charte Qualit\u00e9", "Livraison", "CGV", "Mentions L\u00e9gales"].map(
+            {["Charte Qualité", "Livraison", "CGV", "Mentions Légales"].map(
               (l) => (
                 <li key={l}>
                   <a
@@ -91,7 +91,7 @@ export default function Footer() {
             Newsletter
           </p>
           <p className="font-sans text-sm text-brun/60 mb-3">
-            Inscrivez-vous pour recevoir nos actualit&eacute;s botaniques.
+            Inscrivez-vous pour recevoir nos actualités botaniques.
           </p>
           {status === "done" ? (
             <p className="font-sans text-sm text-sauge">Merci pour votre inscription !</p>
@@ -121,10 +121,10 @@ export default function Footer() {
       {/* Bottom */}
       <div className="border-t border-pierre-fonce py-6 px-6 max-w-6xl mx-auto flex justify-between flex-wrap gap-2">
         <p className="font-sans text-[11px] text-brun/40 uppercase tracking-widest">
-          &copy; SAVONNERIE C&Eacute;VENOLE &middot; FAIT DANS LE GARD AVEC AMOUR
+          &copy; SAVONNERIE CÉVENOLE · FAIT DANS LE GARD AVEC AMOUR
         </p>
         <p className="font-sans text-[11px] text-brun/40 uppercase tracking-widest">
-          SAVONNERIE ARTISANALE &middot; CRUELTY FREE &middot; Z&Eacute;RO PLASTIQUE
+          SAVONNERIE ARTISANALE · CRUELTY FREE · ZÉRO PLASTIQUE
         </p>
       </div>
     </footer>

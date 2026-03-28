@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import PlaceholderImage from "./PlaceholderImage";
 
 export default function Atelier() {
   return (
@@ -18,15 +17,21 @@ export default function Atelier() {
             />
           </div>
           <div className="col-span-1">
-            <PlaceholderImage
-              label="atelier-interieur — \u00e9tag\u00e8res s\u00e9chage"
-              className="aspect-square rounded-md w-full"
+            <Image
+              src="/images/atelier-interieur.png"
+              alt="Étagères de séchage dans l'atelier"
+              width={400}
+              height={400}
+              className="aspect-square object-cover rounded-md w-full"
             />
           </div>
           <div className="col-span-1">
-            <PlaceholderImage
-              label="atelier-huiles — huiles et aromates"
-              className="aspect-square rounded-md w-full"
+            <Image
+              src="/images/atelier-huiles.png"
+              alt="Huiles essentielles et aromates"
+              width={400}
+              height={400}
+              className="aspect-square object-cover rounded-md w-full"
             />
           </div>
         </div>
@@ -42,21 +47,21 @@ export default function Atelier() {
             fabrique avec passion
           </h2>
           <p className="font-sans text-sm text-brun/70 leading-relaxed mt-4">
-            Nich&eacute;e au c&oelig;ur du Gard, notre savonnerie est n&eacute;e d&rsquo;un
-            d&eacute;sir de retour aux sources et au vrai geste artisanal. Chaque matin,
+            Nichée au cœur du Gard, notre savonnerie est née d&apos;un
+            désir de retour aux sources et au vrai geste artisanal. Chaque matin,
             le parfum du thym et de la lavande sauvage envahit notre atelier.
           </p>
           <p className="font-sans text-sm text-brun/70 leading-relaxed mt-3">
-            Nous utilisons la m&eacute;thode de saponification &agrave; froid pour
-            pr&eacute;server les vertus des huiles v&eacute;g&eacute;tales et offrir &agrave;
-            votre peau une douceur incomparable, h&eacute;rit&eacute;e des traditions
-            ancestrales des C&eacute;vennes.
+            Nous utilisons la méthode de saponification à froid pour
+            préserver les vertus des huiles végétales et offrir à
+            votre peau une douceur incomparable, héritée des traditions
+            ancestrales des Cévennes.
           </p>
           <a
             href="#"
             className="font-sans text-xs tracking-[0.2em] uppercase text-sauge mt-6 border-b border-sauge pb-1 inline-flex items-center gap-2 hover:gap-3 transition-all"
           >
-            VISITER L&rsquo;ATELIER
+            VISITER L&apos;ATELIER
             <ArrowRight size={14} />
           </a>
         </div>

@@ -15,13 +15,13 @@ export default function MerciPage() {
         </h1>
         <p className="font-sans text-sm text-brun/60 mt-4">
           Vous recevrez un email de confirmation sous peu. Votre commande sera
-          pr&eacute;par&eacute;e avec soin dans notre atelier.
+          préparée avec soin dans notre atelier.
         </p>
         <Link
           href="/"
           className="bg-sauge text-white px-8 py-3 mt-8 inline-block text-xs tracking-widest uppercase font-sans hover:bg-sauge/90 transition"
         >
-          &larr; Retour &agrave; la boutique
+          ← Retour à la boutique
         </Link>
       </div>
     </div>

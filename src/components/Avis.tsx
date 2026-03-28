@@ -3,21 +3,21 @@ import { Star } from "lucide-react";
 const avis = [
   {
     texte:
-      "Le savon \u00e0 la lavande est un pur bonheur. L\u2019odeur est authentique, pas du tout chimique. Ma peau est hydrat\u00e9e comme jamais.",
+      "Le savon à la lavande est un pur bonheur. L’odeur est authentique, pas du tout chimique. Ma peau est hydratée comme jamais.",
     auteur: "MARIE-LAURE D.",
-    ville: "N\u00eemes",
+    ville: "Nîmes",
   },
   {
     texte:
-      "J\u2019ai command\u00e9 un coffret personnalis\u00e9 pour un anniversaire, la pr\u00e9sentation est sublime et le message manuscrit a fait son effet.",
+      "J’ai commandé un coffret personnalisé pour un anniversaire, la présentation est sublime et le message manuscrit a fait son effet.",
     auteur: "THOMAS R.",
     ville: "Montpellier",
   },
   {
     texte:
-      "Abonn\u00e9e depuis 6 mois, je ne peux plus m\u2019en passer. Chaque mois c\u2019est une petite f\u00eate dans ma bo\u00eete aux lettres.",
+      "Abonnée depuis 6 mois, je ne peux plus m’en passer. Chaque mois c’est une petite fête dans ma boîte aux lettres.",
     auteur: "SOPHIE V.",
-    ville: "Uz\u00e8s",
+    ville: "Uzès",
   },
 ];
 

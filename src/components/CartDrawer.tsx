@@ -125,21 +125,21 @@ export default function CartDrawer() {
             <p className="font-sans text-xs text-brun/60 mb-4">
               {total >= 40
                 ? "Livraison offerte"
-                : `Plus que ${(40 - total).toFixed(2)}\u20ac pour la livraison offerte`}
+                : `Plus que ${(40 - total).toFixed(2)}€ pour la livraison offerte`}
             </p>
             <div className="flex justify-between font-sans font-bold text-brun mb-4">
               <span>Sous-total</span>
-              <span>{total.toFixed(2)}&euro;</span>
+              <span>{total.toFixed(2)}€</span>
             </div>
             <button
               onClick={handleCheckout}
               className="bg-sauge text-white w-full py-4 text-xs tracking-[0.2em] uppercase font-sans hover:bg-sauge/90 transition"
             >
-              PROC&Eacute;DER AU PAIEMENT &mdash; {total.toFixed(2)}&euro;
+              PROCÉDER AU PAIEMENT — {total.toFixed(2)}€
             </button>
             <p className="font-sans text-xs text-center text-brun/50 mt-3 flex items-center justify-center gap-1">
               <Lock size={11} />
-              Paiement 100% s&eacute;curis&eacute;
+              Paiement 100% sécurisé
             </p>
           </div>
         )}

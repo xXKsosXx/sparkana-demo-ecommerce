@@ -4,15 +4,15 @@ const features = [
   {
     icon: Sparkles,
     titre: "3 savons surprise",
-    texte: "D\u00e9couvrez nos derni\u00e8res cr\u00e9ations et\n\u00e9ditions limit\u00e9es saisonni\u00e8res.",
+    texte: "Découvrez nos dernières créations et\néditions limitées saisonnières.",
   },
   {
     icon: Truck,
     titre: "Livraison offerte",
-    texte: "Directement dans votre bo\u00eete aux lettres,\nchaque premier du mois.",
+    texte: "Directement dans votre boîte aux lettres,\nchaque premier du mois.",
   },
-  { icon: RotateCcw, titre: "R\u00e9siliation en 1 clic", texte: "" },
-  { icon: Star, titre: "Acc\u00e8s prioritaire nouveaut\u00e9s", texte: "" },
+  { icon: RotateCcw, titre: "Résiliation en 1 clic", texte: "" },
+  { icon: Star, titre: "Accès prioritaire nouveautés", texte: "" },
 ];
 
 export default function BoxMois() {
@@ -35,10 +35,10 @@ export default function BoxMois() {
         {/* Header */}
         <div className="text-center mb-12">
           <p className="font-sans text-xs tracking-[0.25em] uppercase text-white/60 mb-3">
-            L&rsquo;ABONNEMENT SAVONNERIE
+            L&apos;ABONNEMENT SAVONNERIE
           </p>
           <h2 className="font-serif italic text-4xl md:text-5xl text-white">
-            Recevez la s&eacute;lection du mois
+            Recevez la sélection du mois
           </h2>
         </div>
 
@@ -63,14 +63,14 @@ export default function BoxMois() {
           {/* CTA card */}
           <div className="bg-white/10 backdrop-blur rounded-md p-8">
             <div className="flex items-baseline gap-1">
-              <span className="font-serif text-5xl text-white">24&euro;</span>
+              <span className="font-serif text-5xl text-white">24€</span>
               <span className="font-sans text-sm text-white/60">/mois</span>
             </div>
             <button className="bg-or text-brun w-full py-4 mt-6 text-xs tracking-[0.2em] uppercase font-bold font-sans hover:bg-or/80 transition">
-              S&rsquo;ABONNER &mdash; 24&euro;/MOIS
+              S&apos;ABONNER — 24€/MOIS
             </button>
             <p className="font-sans text-[11px] text-white/50 text-center mt-3">
-              SANS ENGAGEMENT &middot; R&Eacute;SILIABLE EN UN CLIC
+              SANS ENGAGEMENT · RÉSILIABLE EN UN CLIC
             </p>
           </div>
         </div>

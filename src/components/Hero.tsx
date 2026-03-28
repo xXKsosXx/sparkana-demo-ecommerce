@@ -14,20 +14,20 @@ export default function Hero() {
       <div className="absolute inset-0 flex items-end">
         <div className="px-6 md:px-16 pb-20 md:pb-28">
           <h1 className="font-serif italic text-5xl md:text-7xl text-white leading-tight">
-            Les C&eacute;vennes,
+            Les Cévennes,
             <br />
-            savonn&eacute;e &agrave; la main.
+            savonnée à la main.
           </h1>
           <p className="font-sans text-base text-white/70 mt-4 max-w-md">
-            Savons naturels fabriqu&eacute;s dans notre atelier depuis 2009.
-            Ingr&eacute;dients des C&eacute;vennes gardoises, sans compromis.
+            Savons naturels fabriqués dans notre atelier depuis 2009.
+            Ingrédients des Cévennes gardoises, sans compromis.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="#catalogue"
               className="bg-sauge text-white px-8 py-4 text-xs tracking-[0.2em] uppercase hover:bg-sauge/80 transition font-sans"
             >
-              D&Eacute;COUVRIR LA COLLECTION
+              DÉCOUVRIR LA COLLECTION
             </a>
             <a
               href="#coffret"

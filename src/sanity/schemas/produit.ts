@@ -5,7 +5,7 @@ export default {
   fields: [
     { name: "nom", type: "string", title: "Nom" },
     { name: "parfum", type: "string", title: "Parfum / Sous-titre" },
-    { name: "prix", type: "number", title: "Prix HT (\u20ac)" },
+    { name: "prix", type: "number", title: "Prix HT (€)" },
     { name: "stock", type: "number", title: "Stock" },
     { name: "stockBas", type: "boolean", title: "Stock bas ?" },
     {

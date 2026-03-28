@@ -4,17 +4,17 @@ const valeurs = [
   {
     icon: Leaf,
     titre: "100% naturel",
-    texte: "Des ingr\u00e9dients sourc\u00e9s localement,\nsans aucun additif chimique.",
+    texte: "Des ingrédients sourcés localement,\nsans aucun additif chimique.",
   },
   {
     icon: Hand,
-    titre: "Fait \u00e0 la main",
-    texte: "Chaque savon est moul\u00e9, coup\u00e9 et emball\u00e9\nindividuellement dans notre atelier.",
+    titre: "Fait à la main",
+    texte: "Chaque savon est moulé, coupé et emballé\nindividuellement dans notre atelier.",
   },
   {
     icon: MapPin,
     titre: "Gard, France",
-    texte: "L\u2019authenticit\u00e9 des C\u00e9vennes au c\u0153ur de\nnotre processus de fabrication.",
+    texte: "L’authenticité des Cévennes au cœur de\nnotre processus de fabrication.",
   },
 ];
 

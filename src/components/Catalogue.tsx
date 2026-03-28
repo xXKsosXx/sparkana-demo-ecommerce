@@ -14,7 +14,7 @@ export default function Catalogue() {
         <p className="font-sans text-xs tracking-[0.25em] uppercase text-sauge mb-3">
           ARTISANAT PUR
         </p>
-        <h2 className="font-serif text-4xl text-brun">Nos Cr&eacute;ations</h2>
+        <h2 className="font-serif text-4xl text-brun">Nos Créations</h2>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto px-6">
